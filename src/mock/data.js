@@ -19,8 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: "I am a front end developer from London. I am currently working through the full stack JavaScript course at The Odin Project, an open source project based curriculum. I enjoy taking complex problems, breaking them down into smaller problems and engineering understandable and performant solutions",
-  paragraphTwo: 'I have  built mutiple projects with HTML, CSS and JavaScript - each project developing my understandig of JavaScript as a language and how to leverage it to create interactive experiences. Recently I have built several applications using React using both Class and functional components. I am proficient with Git and modern tooling such as WebPack, NPM, ESLint and Prettier. My goal is to become a full stack developer and each day I learn, code and build towards that goal.',
-  paragraphThree: 'I am currently looking for opportunities in web development. If you wish to know more about me please do not hesitate to ask.',
+  paragraphTwo: 'I have built mutiple projects with HTML, CSS and JavaScript - each project developing my understandig of JavaScript as a language and how to leverage it to create interactive experiences. I am familiar with modern ES6 syntax, confident working with async code and have a solid understanding of JS fundamentals such as scope and the prototype chain.',
+  paragraphThree: 'I have built several applications using React using both Class and functional components and I have developed strong passion for it as I am in awe of its ability to create dynamic and responsive websites with ease. I am proficient with Git and modern tooling such as WebPack, NPM, ESLint and Prettier. My goal is to become a full stack developer and each day I learn, code and build towards that goal.',
+  paragraphFour: 'I am currently looking for opportunities in web development. If you wish to know more about me please do not hesitate to ask.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -30,7 +31,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'shopping-cart.png',
     title: 'Next Gen Store',
-    info: 'Front end shopping cart built with React functional components and React hooks. I used React Router to display content across mutiple pages, I also used Context and useReducer to access and manipulate state across multiple component layers without excessive prop drilling, enabling predicatable and bug-free changes to application state.',
+    info: 'Front end shopping cart built with React functional components and React hooks. I used React Router to display content across mutiple pages, I also used Context and useReducer to access and manipulate state across multiple component layers without excessive prop drilling, enabling predictable and bug-free changes to application state.',
     info2: 'Technologies used: React, React Router, JavaScript, SASS',
     url: 'https://sultanp91.github.io/shopping-cart/',
     repo: 'https://github.com/sultanp91/shopping-cart', // if no repo, the button will not show up
