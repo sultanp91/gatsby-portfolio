@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Sultan | Wev Developer', // e.g: 'Name | Developer'
+  title: 'Sultan | Front End Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio' // e.g: Welcome to my website
 };
@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am a self-taught web developer from London. I am currently learning full stack web development through The Odin Project',
-  paragraphTwo: 'I am passionate about programming and developing my understanding of web development. I have a strong understanding of HTML, CSS and JavaScript fundamentals and I am presently learning my first framework in React',
-  paragraphThree: 'I am currently looking for opportunities in front end development. If you wish to know more about me please do not hesitate to ask.',
+  paragraphOne: "I am a front end developer from London. I am currently working through the full stack JavaScript course at The Odin Project, an open source project based curriculum. I enjoy taking complex problems, breaking them down into smaller problems and engineering understandable and performant solutions",
+  paragraphTwo: 'I have  built mutiple projects with HTML, CSS and JavaScript - each project developing my understandig of JavaScript as a language and how to leverage it to create interactive experiences. Recently I have built several applications using React using both Class and functional components. I am proficient with Git and modern tooling such as WebPack, NPM, ESLint and Prettier. My goal is to become a full stack developer and each day I learn, code and build towards that goal.',
+  paragraphThree: 'I am currently looking for opportunities in web development. If you wish to know more about me please do not hesitate to ask.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,9 +28,18 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'shopping-cart.png',
+    title: 'Next Gen Store',
+    info: 'Front end shopping cart built with React functional components and React hooks. I used React Router to display content across mutiple pages, I also used Context and useReducer to access and manipulate state across multiple component layers without excessive prop drilling, enabling predicatable and bug-free changes to application state.',
+    info2: 'Technologies used: React, React Router, JavaScript, SASS',
+    url: 'https://sultanp91.github.io/shopping-cart/',
+    repo: 'https://github.com/sultanp91/shopping-cart', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'cv-app.png',
     title: 'React CV Generator',
-    info: 'CV Generator app built with class components. Users are able to add in their personal information, they can add in education and work history entries which can be edited and deleted.',
+    info: 'CV Generator app built with class components. Users are able to add in their personal information, they can add in education and work history entries which can be edited and deleted. This was built with class components so that I could have a broader understanding of React as a library and enable me to work with legacy codebases built with class components',
     info2: 'Technologies used: React, JavaScript, CSS',
     url: 'https://sultanp91.github.io/cv-project/',
     repo: 'https://github.com/sultanp91/cv-project', // if no repo, the button will not show up
@@ -48,7 +57,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'to-do-list.png',
     title: 'To Do List',
-    info: 'To Do List made with vanilla JavaScript. Users are are able to create projects and then create tasks within them. Tasks can be edited and deleted. Users are able to find tasks due on that date and also sort through tasks by priority. Dates are formatted using the date-fns package.',
+    info: "To Do List made with vanilla JavaScript. Users are are able to create projects and then create tasks within them. Tasks can be edited and deleted. Users are also able to find tasks due on that date and also sort through tasks by priority. Dates are formatted using the date-fns package. This was one of the most difficult projects I've done, it was the first time ",
     info2: 'Technologies used: JavaScript, HTML, SASS, WebPack',
     url: 'https://sultanp91.github.io/to-do-list/',
     repo: 'https://github.com/sultanp91/to-do-list', // if no repo, the button will not show up
