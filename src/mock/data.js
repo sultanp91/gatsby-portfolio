@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Sultan | Front End Developer', // e.g: 'Name | Developer'
+  title: 'Sultan Parbes | Front End Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio' // e.g: Welcome to my website
 };
@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: "I am a Front End developer from London. I am currently working through the full stack JavaScript course at The Odin Project, an open source project based curriculum. I enjoy taking complex problems, breaking them down into smaller problems and engineering understandable and performant solutions",
-  paragraphTwo: 'I have built mutiple projects with HTML, CSS and JavaScript - each project developing my understanding of JavaScript as a language and how to leverage it to create interactive experiences. I am confident with modern ES6 syntax, working with async code and have a solid understanding of JavaScript fundamentals such as scope and the prototype chain.',
-  paragraphThree: 'I have built several applications using React using both class and functional components and I have developed a strong passion for it as I am in awe of its ability to create dynamic and responsive websites with ease. I am proficient with Git and modern tooling such as WebPack, NPM, ESLint and Prettier. My goal is to become a full stack developer and each day I become closer to that goal by learning and building every opportunity I get.',
+  paragraphTwo: 'I have built mutiple projects with HTML, CSS and JavaScript - each project developing my understanding of JavaScript as a language and how to leverage it to create interactive experiences. I am confident with modern ES6 syntax, working with async code and have a solid understanding of JavaScript fundamentals such as scope, closure and objected oriented programming.',
+  paragraphThree: 'I am passionate about React having built projects using both class and functional components with hooks. I am proficient with Git and modern tooling such as WebPack, NPM, ESLint and Prettier. My goal is to become a full stack developer and each day I become closer to that goal by learning and building every opportunity I get.',
   paragraphFour: 'I am currently looking for opportunities in web development. If you wish to know more about me please do not hesitate to ask.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -96,7 +96,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/sultan-alom-parbes-797051159/',
+      url: 'https://www.linkedin.com/in/sultan-parbes/',
     },
     {
       id: nanoid(),
