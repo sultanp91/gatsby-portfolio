@@ -29,6 +29,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'battleship.png',
+    title: 'Battleship',
+    info: 'A recreation of the classic board game - built with React and JavaScript using test driven development. Each component of game logic - ship, gameboard, player - was tested using Jest ensuring game logic is working correctly. Players can place ships horizontally or vertically on the board. Once all ships are placed, players will attack the opponent board until all ships have been sunk.',
+    info2: 'Technologies used: React, JavaScript, CSS, Jest',
+    url: 'https://sultanp91.github.io/battleship/',
+    repo: 'https://github.com/sultanp91/battleship', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'shopping-cart.png',
     title: 'Next Gen Store',
     info: 'Front end shopping cart built with React functional components and React hooks. I used React Router to display content across mutiple pages, I also used Context and useReducer to access and manipulate state across multiple component layers without excessive prop drilling, enabling predictable and bug-free changes to application state.',
