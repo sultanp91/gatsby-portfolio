@@ -99,6 +99,15 @@ export const projectsData = [
     url: 'https://sultanp91.github.io/YouTube-page-clone/',
     repo: 'https://github.com/sultanp91/YouTube-page-clone', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'mint-sc.jpg',
+    title: 'mint.com sign up page',
+    info: 'A clone of a mint.com sign up page',
+    info2: 'Technologies used: HTML, CSS',
+    url: 'https://sultanp91.github.io/mint-sign-up-page',
+    repo: 'https://github.com/sultanp91/mint-sign-up-page', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
